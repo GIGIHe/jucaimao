@@ -1,0 +1,151 @@
+.head_wrapper{width: 100%;height: 30px;background-color: #fff;}
+.head_wrapper .head_content{height: 30px;line-height: 30px;}
+.head_wrapper .head_content .head_i i{vertical-align: -8px;display: inline-block; width: 24px;height: 30px; background-image: url(https://www.jucaicat.com.cn/images/header/img.png);}
+.head_wrapper .head_content .head_i i:nth-child(1){background-position: 0 2px;}
+.head_wrapper .head_content .head_i i:nth-child(3){background-position: 0 -26px;}
+.head_wrapper .head_content .head_i i:nth-child(4){background-position: 0 -55px;}
+.head_wrapper .head_content .head_i i:nth-child(5){background-position: 0 -84px;}
+.head_wrapper .head_content .head_i i:nth-child(6){background-position: 0 -114px;}
+.head_wrapper .head_content .head_ul{width:171px;height: 30px;line-height: 30px;}
+.head_wrapper .head_content .head_ul li{margin-right: 15px;}
+.head_wrapper .head_content .head_ul li .be::before{content: "";display: inline-block;vertical-align: -8px;display: inline-block; width: 24px;height: 30px;background-image: url(https://www.jucaicat.com.cn/images/header/img.png);background-position: 51px -2px;vertical-align: -9px;}
+/* 导航css */
+.nav_wrapper{width: 100%;background-color: #fff;}
+.nav{padding-top: 10px;height: 90px;}
+.nav ul{height:30px ;margin-top: 30px;line-height: 30px;width: 393px;}
+.nav ul li{margin-right:40px; }
+.nav ul .cur{border-bottom: 4px solid #e74444; }
+.nav ul li .current{color:#E74444; }
+.nav ul li:hover{border-bottom: 4px solid #e74444; }
+/* section 开始 */
+.imgbox{width: 100%;height: 360px;position: relative;overflow: hidden;}
+.imgbox ul{width: 500%;position: absolute;left: 0;top: 0;animation:run 10s linear infinite;}
+@keyframes run{
+    from{
+        left: 0;
+    }
+    to{
+        left: -2000px;
+    }
+}
+.imgbox a img{width:1352px;height: 360px;}
+/* 聚财猫数据 开始 */
+.jccData{height: 505px;padding-top: 50px;background-color: #EEE;}
+.jccData .jccTop{height: 54px;text-align: center;position: relative;}
+.jccData .jccTop .line,
+.jccData  .jccBot .line
+{width:100%;height: 1px;background:#ccc;position: absolute;top: 20px;left: 0;}
+.jccData .jccTop h3{width: 300px; background-color: #EEE;position: absolute;top:0;left: 50%;color: #000;margin-left: -150px;font-size: 30px}
+.jccData  .jccBot{position: relative;font-size: 30px; text-align: center;line-height: 36px; margin-top:64px;height: 36px}
+.jccData  .jccBot h3{width:640px;position: absolute;top:0px;left: 50%;margin-left: -320px; background-color: #EEE; }
+.security{margin-top: 64px;height: 160px;background-color: #fff;}
+.security .security_t{padding-left: 67px;width: 413px;height: 120px;vertical-align: 18px}
+.security .security_tixi{margin-left: 20px; display: block; vertical-align: 14px;display: inline-block;width: 168px; font-size: 14px;}
+.security .security_tixi .user_register{margin-bottom: 10px;}
+.security  img{margin-top: 25px;}
+/* .security .security_t:hover{} */
+.code{ height: 470px;margin-top: 60px;background-color: #fff;}
+.code .code_img{height: 470px;position: relative;background: url(https://www.jucaicat.com.cn/images/section/index_bg.png) ;background-position: right bottom;background-repeat: no-repeat; }
+.code .code_img h3{color:#000000;font-size: 30px;position: absolute; top:70px;left:0;}
+.code .code_img .imag{width: 696px;height: 253px;position: absolute;left:0;top: 148px; }
+.code .code_img .imag .img_1{margin-left: 140px;height: 187px;}
+.code .code_img .imag .img_1 img{height: 156px;}
+.code .code_img .imag .ad{font-size:16px;line-height:32px;  }
+/* 聚财猫简介 css */
+.jucai_about{height: 490px;margin-top: 50px;padding: 25px;width: 955px;}
+.jucai_about .top{height: 275px;}
+.jucai_about .top .top_about{ font-size:30px;color: #000;height: 27px;padding-bottom: 15px; border-bottom:1px solid #e4e4e4;}
+.jucai_about .top .more_news{height:209px;margin-top: 24px;width:975px; }
+.jucai_about .top .more_news p,
+.jucai_about .bottom p{height: 20px;}
+.jucai_about .top .more_news .t_w{margin-top: 20px; width:417px ;height:134px;padding-left: 18px; }
+.jucai_about .top .more_news .t_w .td_w{ display: inline-block; width: 275px;height:13px;line-height: 13px;}
+.jucai_about .top .more_news .t_w .td_w a{display: inline-block; width: 266px; white-space: nowrap; overflow: hidden;text-overflow:ellipsis; }
+.jucai_about .top .more_news .t_w .td_data{ display: inline-block; width: 80px;height:13px;line-height: 13px;margin-left: 34px;}
+.jucai_about .bottom{height: 216px;width: 955px;}
+.jucai_about .bottom .img_box{margin-top: 20px; width: 955px;display: flex;justify-content: space-around; height: 159px;}
+.jucai_about .bottom .img_box .item{width: 155px;height: 153px;text-align: center}
+.jucai_about .bottom .img_box .item img{width: 96px;height: 125px;}
+/* 底部 css */
+.wrapper{margin-top: 40px;width: 100%; height:330px;padding-top:65px;background-color: #e2e2e2;}
+.wrapper .contact{height: 126px;}
+.wrapper .contact ul{margin-right: 170px;width: 220px;height: 203px;}
+.wrapper .contact .only{width: 220px;height: 203px;margin-right: 0px;}
+.wrapper .contact .only li{float: left;}
+.footer_img{text-align: center;margin-bottom: 20px}
+.footer_img img{margin-right: 30px;}
+/* 侧边栏 css */
+.outer{
+    width: 40px;
+    height: 150px;
+    position: fixed;
+    right: 50px;
+    bottom: 20px;
+    list-style-type: none;
+    background-color: #E8E8E8;
+}
+.item1,
+.item2,
+.item3 a
+{
+    width: 39px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-image: url(../img/img.png);
+    border:1px solid #E8E8E8;
+
+}
+.item1{
+   
+    background-position: -5px -658px;
+}
+
+.item2{
+    background-position: -5px  -715px;
+}
+.item3{width: 40px;
+    height: 50px;}
+.item3 a{
+    background-position: -5px -774px;
+}
+.miaomiao{
+display: none;
+width: 130px;
+height: 147px;
+position: absolute;
+top: 0;
+left: -138px;
+padding:4px;
+text-align: center;
+background-color: #fff;
+}
+.item1:hover,
+.item2:hover,
+.item3:hover
+       {
+           background-color: #fff;
+       }
+.item1:hover .miaomiao{display: block;}
+.item2:hover .miaomiao{display: block;}
+.miaomiao li {
+width: 120px;
+height: 40px;
+line-height: 40px;
+
+}
+.miaomiao li i{
+    display: inline-block;
+    width: 23px;height: 23px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.jucaicat.com.cn/images/header/img.png);
+    background-position: 5px -142px;
+    vertical-align: -4px;
+    
+}
+.miaomiao li span{
+margin-left: 10px;
+}
+.miaomiao .img_sys{
+width: 130px;
+height: 130px;
+}

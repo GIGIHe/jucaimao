@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    /* .box{width: 300px;height: 300px;position: relative;}
+    .box:hover .two{display: block;}
+    .box img{width: 100px;height: 100px;}
+    .box .two{display: none;position: absolute;top:100px;left: 100px; } */
+/* .outer{width: 300px;height: 300px;}
+.outer .inner1{width: 100px;height: 100px;background-image: url("./img/执子之手.jpg");background-size:100% 100%;}
+.outer .inner2{ display: none;width: 100px;height: 100px;background-image: url("./img/执子之手.jpg");background-size:100% 100%;}
+.outer:hover .inner2{display: block;} */
+.outer{width: 100px;height: 100px;position: relative;}
+.outer:hover .one{display: block;background-image: url(img/img2.png);background-position: 3px -242px;}
+.one{position: absolute;top: 10px;left: 10px; width: 62px;height:65px;background-image: url(img/img2.png);background-position:2px -123px;}
+.two{   width: 62px;height:65px;background-image: url(img/img2_r2_c2.png);background-repeat: no-repeat;}
+    </style>
+</head>
+<body>
+    <!-- <div class="box">
+        <img class="one" src="./img/执子之手.jpg" alt="">
+        <img class="two" src="./img/执子之手.jpg" alt="">
+    </div> -->
+    <!-- <div class="outer">
+        <div class="inner1"></div>
+        <div class="inner2"></div>
+    </div> -->
+    <div class="outer">
+<div class="one"></div>
+<div class="two"></div>
+    </div>
+</body>
+</html>
